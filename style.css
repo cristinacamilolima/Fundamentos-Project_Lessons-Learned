@@ -1,11 +1,82 @@
 body {
-    background:rgb(253, 251, 251)
+    background:rgb(253, 251, 251); /*requisito*/
+
 }
 
+
 #cabecalho {
-    top: 0;
+    top: 0; /*requisito ser 0*/
+    position: fixed; /*requisito ser fixo*/
+    margin: 10px; /*requisito utilizar o margin em algum momento*/
+    padding: 10px; /*requisito utilizar o margin em algum momento*/
+    background-color: rgba(226, 150, 124, 0.466);
+}
+
+main {
+    background:rgb(253, 251, 251);
+    padding: 10%;
+    margin: 10%;
+}
+
+nav {
+    background-color:white ;
+    padding: 3px;
 }
 
 #titulo {
-position: fixed;
+    font-size: 60px;
+    color: rgb(153, 147, 147);
+    width: 1270px;
+    height: 100px;
+    background-color: rgba(212, 100, 123, 0.527);
+    padding-left: 15px;
+}
+
+p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    }
+
+#minha_foto {
+    width: 1000px;
+    height: auto;
+    border: none; /*requisito utilizar o margin em algum momento*/
+   
+    }
+
+#rodape {
+    font-style: italic;
+    text-align: center;
+}
+
+#linkexterno {
+    font-style: normal;
+}
+
+#rodape {
+    position: absolute;
+}
+
+.tabelaexplicativa { 
+    background-color: antiquewhite;
+    height: 500px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left:15px;
+    margin-right: 0px;
+    float: right;
+    text-align: center;
+    }
+.cabeçalhotabela {
+    margin: auto;
+}
+
+.menuprincipal {
+    display:inline-flex;
+    }
+
+li .menu {
+    margin: 2px;
 }

@@ -8,16 +8,24 @@
     <title>Document</title>
 </head>
 <body>
-
-<header id="cabecalho">
-    <h1 id="titulo">TITULO</h1>
+<header id="cabecalho"> <!---requisito de ter o header e ter id-->
+    <h1 id="titulo">Diário de uma Programadora Iniciante</h1> <!---requisito-->
+    <nav> <!---requisito utilizar a tag-->
+<ul class="menuprincipal">
+    <li class="menu">Lições Aprendidas</li>
+    <li class="menu">Lições a Aprender</li>
+    <li class="menu">Você Sabia?!</li>
+</ul>
+    </nav>
 </header>
 
-<img id= "minha_foto" src="images/IMG_20210903_122922.jpg" alt="mulher de cor parda, cabelos curtos e crespos e de óculos escuros. Ao fundo o mar.">
+<main>
 
-<section>
+<img id= "minha_foto" src="images/IMG_20210903_122922.jpg" alt="mulher de cor parda, cabelos curtos e crespos e de óculos escuros. Ao fundo o mar."> <!---requisito-->
+
+<section> <!---requisito utilizar a section-->
     <h2>Lições Aprendidas</h2>
-    <ol id="licoes_aprendidas">
+    <ol id="licoes_aprendidas"> <!---requisito-->
         <li>Git</li>
         <li>GitHub</li>
         <li>Diversidade</li>
@@ -33,7 +41,7 @@
 
 <section>
 <h2>Lições A Aprender</h2>
-<ul id="licoes_a_aprender">
+<ul id="licoes_a_aprender"> <!---requisito-->
 <li>Dominar Git e GitHub</li>
 <li>Dominar o Box Model</li>
 <li>Ter um relação de Amor com Java Script</li>
@@ -47,6 +55,27 @@
 </ul>
 </section>
 
-    
+<article> <!---requisito está dentro do article e conter entre 300 e 600 caract-->
+    <h2 class="titulodoartigo">Aprendendo a Aprender</h2>
+    <p class="texto1">A palavra intenso segundo o dicionário online Oxford Languages tem o seu significado sendo como algo “que se manifesta ou se faz sentir com força, com vigor, com abundância; que ultrapassa as medidas ou o grau habitual; febril, excessivo, árduo”, 
+    estes significados fazem todos sentido quando tenho a dizer sobre meus dias de aprendizado aqui na Trybe! </p>
+</article>
+
+<aside> <!---requisito ter a tag aside e conteúdo ter entre 100 e 300 caract-->
+    <table class="tabelaexplicativa"> <!---requisito ter uma tabela na página-->
+        <tr class="cabecalhotabela"><th><img src="./images/criar-um-meme-06.jpg" alt= "criança branca de cabelos loiros com cara engraçada de impressionada" width="200px"</th>
+        <tr><td>Por eu não ter experiência com programação, eu quase desisti de entrar na Trybe,<br>
+        no último dia do prazo, tomei coragem e marquei minha entrevista.<br>
+        Ainda bem né? Cá estou Eu!! á estou Eu!á estou Eu!á estou Eu!</td></tr>
+        </tr>
+        </table>
+</aside>
+</main>    
 </body>
+
+<footer id="rodape"> <!---requisito utilizar o footer-->
+    <p> © Aluna Cristina Camilo for Escola Trybe</p>
+    <p id="linkexterno"><a href="https://www.betrybe.com" target="blank">BeTrybe.com</a></p> <!---requisito-->
+</footer>
+
 </html>
