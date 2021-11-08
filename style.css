@@ -1,82 +1,140 @@
-body {
-    background:rgb(253, 251, 251); /*requisito*/
-
+*  {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
+body {
+    background:rgb(253, 251, 251);
+
+}
 
 #cabecalho {
-    top: 0; /*requisito ser 0*/
-    position: fixed; /*requisito ser fixo*/
-    margin: 10px; /*requisito utilizar o margin em algum momento*/
-    padding: 10px; /*requisito utilizar o margin em algum momento*/
+    top: 0; 
+    position: fixed;
+    margin: 10px;
+    padding: 10px;
     background-color: rgba(226, 150, 124, 0.466);
-}
 
-main {
-    background:rgb(253, 251, 251);
-    padding: 10%;
-    margin: 10%;
-}
-
-nav {
-    background-color:white ;
-    padding: 3px;
 }
 
 #titulo {
     font-size: 60px;
     color: rgb(153, 147, 147);
-    width: 1270px;
-    height: 100px;
     background-color: rgba(212, 100, 123, 0.527);
     padding-left: 15px;
 }
+/*width: 1270px;
+height: 100px; estava usando no titulo para ocupar a largura da pagina */
 
 p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
-    line-height: 1.5em;
+    line-height: 2px;
     }
 
 #minha_foto {
-    width: 1000px;
-    height: auto;
-    border: none; /*requisito utilizar o margin em algum momento*/
+    width: 500px;
+    position: absolute;
+    top: 250px;
+    right: 40%;
    
     }
-
-#rodape {
-    font-style: italic;
-    text-align: center;
-}
 
 #linkexterno {
     font-style: normal;
 }
 
-#rodape {
-    position: absolute;
+aside {
+    width: 15%;
+    float: right;
+    position: relative;
+    top: 850px;
+    padding: 10px;
 }
-
 .tabelaexplicativa { 
     background-color: antiquewhite;
     height: 500px;
-    width: 150px;
     margin-top: 15px;
     margin-left:15px;
     margin-right: 0px;
-    float: right;
     text-align: center;
+        
     }
+
 .cabeçalhotabela {
     margin: auto;
 }
 
-.menuprincipal {
-    display:inline-flex;
+#menuprincipal {
+    display: inline;
+    position: fixed;
+    padding: 5px;
+    color:rgb(153, 147, 147);
+    top: 150px;
+}
+
+.menu {
+float: left;
+list-style: none;
+margin: 10px;
+padding: 3px;
+border-right: 1px solid;
+display: inline;
+
+}
+
+article {
+    position: absolute;
+    top: 650px;
+    width: 80%;
+}
+
+.texto1 {
+    line-height: 1.5;
+}
+
+.lista1 {
+
+    top: 900px;
+    margin: 15px;
+    padding: 15px;
+    position: absolute;
+
+}
+
+.lista2 {
+    top: 900px;
+    right: 531px;
+    padding: 15px;
+    position: absolute;
+}
+
+#rodape {
+    font-style: italic;
+    position: absolute;
+    bottom:0;
+    background-color: rgba(226, 150, 124, 0.466) solid;
+    
     }
 
-li .menu {
-    margin: 2px;
+.secaorodape {
+    margin-left: 500px;
+    border: 1px;
+    position: relative;
+    padding: 5px;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.textorodape {
+    text-align: center;
+}
+
+.linkexterno {
+    text-align: center;
 }
