@@ -1,112 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-        <head>
+    <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>1º Projeto Oficial - Trybe</title>
-        </head>
+    </head>
 
-<body>
+    <body>
 
-<header id="cabecalho">
-    <h1 id="titulo">Diário de uma Programadora Iniciante</h1>
+        <header id="cabecalho">
+            <h1 id="titulo">Diário de uma Programadora Iniciante</h1>
 
-    <nav>
-        <ul id="menuprincipal">
-            <li class="menu"><a href="#lista1">Lições Aprendidas</a></li>
-            <li class="menu"><a href="#lista2">Lições a Aprender</a></li>
-            <li class="menu"><a href="#vocesabia">Você Sabia?!</a></li>
-        </ul>
-        </nav>
-</header>
+            <nav>
+                <ul id="menuprincipal">
+                    <li class="menu"><a href="#lista1">Lições Aprendidas</a></li>
+                    <li class="menu"><a href="#lista2">Lições a Aprender</a></li>
+                    <li class="menu"><a href="#vocesabia">Você Sabia?!</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<main>
+        <main>
 
-<section class="lado-esquerdo">
-<img id="minha_foto" src="images/IMG_20210903_122922.jpg" alt="mulher de cor parda, cabelos curtos e crespos e de óculos escuros. Ao fundo o mar.">
-</section>
+            <section class="lado-esquerdo">
+                <img id="minha_foto" src="images/IMG_20210903_122922.jpg" alt="mulher de cor parda, cabelos curtos e crespos e de óculos escuros. Ao fundo o mar.">
+            </section>
 
-<div>
-<article class="lado-direito">
-    <h2 class="titulodoartigo">Sobre mim</h2>
-    <p class="textoartigo">Carioca, Mãe, Pegagoga, Graduanda em Administração de Empresas, Estudante de Programação, Atriz de teatro amador, Serva de Deus, Mulher da reforma e do Artesanato... Não necessariamente nesta ordem!</p>
-</article>
-<div>
+            <div>
+                <article class="lado-direito">
+                    <h2 class="titulodoartigo">Sobre mim</h2>
+                    <p class="textoartigo">Carioca, Mãe, Pegagoga, Graduanda em Administração de Empresas, Estudante de Programação, Atriz de teatro amador, Serva de Deus, Mulher da reforma e do Artesanato... Não necessariamente nesta ordem!</p>
+                    <p class="textoartigo">“Se não for para ser de verdade, se não for para ser intenso e não ser for para crescer, eu nem vou!”</p>
+                </article>
+            </div>
 
-    <div>
-        <article class="lado-direito1">
-            <h2 class="titulodoartigo">Você me Encontra</h2>
-            <p class="textoartigo">Linkedin , Instagram , GitHub</p>
+            <div id="lado-direito1">
+                <h2 class="titulodoartigo">Você me Encontra</h2>
+                <p class="textoartigo">Linkedin , Instagram , GitHub</p>
+            </div>
+
+            <div id="aprendendoaaprender">
+                <h2 class="titulodoartigo">Aprendendo a Aprender</h2>
+                <p class="textoartigo">A palavra <strong>INTENSO</strong> segundo o dicionário online Oxford Languages tem o seu significado sendo como algo <em> “que se manifesta ou se faz sentir com força, com vigor, com abundância; que ultrapassa as medidas ou o grau habitual; febril, excessivo, árduo”</em>, 
+    estes significados fazem todos sentido quando tenho a dizer sobre meus dias de aprendizado aqui na <a target="_blank" href="https://betrybe.com/">Trybe.</a></p> <!--- erro no link externo, solucionado inspecionando o código do projeto do colega Lucas Pimentel, faltava "_" no target-->
+                </div>
+
+            <aside id="vocesabia">
+                <a name="vocesabia"></a>
+                <table class="tabelaexplicativa">
+                    <tr class="cabecalhotabela"><th><img src="./images/criar-um-meme-06.jpg" alt= "criança branca de cabelos loiros com cara engraçada de impressionada" width="200px"></th></tr>
+                    <tr><td>Por eu não ter experiência com programação, eu quase desisti de entrar na Trybe, but<br> no último dia do prazo, tomei coragem e marquei minha entrevista.<br>Ainda bem né? Cá estou Eu! Confie em Você!</td></tr>
+                </table>
+            </aside>
+
+            <div>
+                <section class="lista1">
+                        <h2>Lições aprendidas<a name="lista1"></a></h2>
+                        <ol id="licoes_aprendidas">
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Diversidade</li>
+                            <li>Empatia</li>
+                            <li>Ética</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Slack</li>
+                            <li>Unix(Ainda Desvendando)</li>
+                            <li>Box Model</li>
+                        </ol>
+                    </section>
+            </div>
+
+            <div>
+                <section class="lista2">
+                    <h2>Lições a aprender<a name="lista2"></a></h2>
+                    <ul id="licoes_a_aprender">
+                        <li>Dominar Git e GitHub</li>
+                        <li>Dominar o Box Model</li>
+                        <li>Ter um relação de Amor com Java Script</li>
+                        <li>Fazer megas estilizações com CSS</li>
+                        <li>Ser mais focada</li>
+                        <li>DOM</li>
+                        <li>SQL</li>
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Phyton</li>
+                    </ul>
+                </section>
+            </div>
+
+        </main>
+
+    </body>
+
+    <footer id=rodape>
+        <article class="secaorodape">
+            <p class="textorodape"> © Aluna Cristina Camilo for Escola Trybe</p>
+            <p class="linkexterno"><a href="https://www.betrybe.com" target="blank">BeTrybe.com</a></p>
         </article>
-        <div>
-
-<article>
-    <h2 class="titulodoartigo">Aprendendo a Aprender</h2>
-    <p class="textoartigo">A palavra <strong>INTENSO</strong> segundo o dicionário online Oxford Languages tem o seu significado sendo como algo <em> “que se manifesta ou se faz sentir com força, com vigor, com abundância; que ultrapassa as medidas ou o grau habitual; febril, excessivo, árduo”</em>, 
-    estes significados fazem todos sentido quando tenho a dizer sobre meus dias de aprendizado aqui na <a target="_blank" href="https://betrybe.com/">Trybe.</a> E não é que eu gosto disto!!</p> <!--- erro no link externo, solucionado inspecionando o código do projeto do colega Lucas Pimentel, faltava "_" no target-->
-</article>
-
-</section>
-
-<aside id="vocesabia"><a name="vocesabia"></a>
-    <table class="tabelaexplicativa">
-        <tr class="cabecalhotabela"><th><img src="./images/criar-um-meme-06.jpg" alt= "criança branca de cabelos loiros com cara engraçada de impressionada" width="200px"></th>
-        <tr><td>Por eu não ter experiência com programação, eu quase desisti de entrar na Trybe, but<br>
-        no último dia do prazo, tomei coragem e marquei minha entrevista.<br>
-        Ainda bem né? Cá estou Eu! Confie em Você!</td></tr>
-        </tr>
-        </table>
-</aside>
-
-<div>
-<section class="lista1">
-    <h2>Lições aprendidas<a name="lista1"></a></h2>
-    <ol id="licoes_aprendidas">
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Diversidade</li>
-        <li>Empatia</li>
-        <li>Ética</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Slack</li>
-        <li>Unix(Ainda Desvendando)</li>
-        <li>Box Model</li>
-    </ol>
-</section>
-</div>
-
-<div>
-<section class="lista2">
-<h2>Lições a aprender<a name="lista2"></a></h2>
-
-<ul id="licoes_a_aprender">
-<li>Dominar Git e GitHub</li>
-<li>Dominar o Box Model</li>
-<li>Ter um relação de Amor com Java Script</li>
-<li>Fazer megas estilizações com CSS</li>
-<li>Ser mais focada</li>
-<li>DOM</li>
-<li>SQL</li>
-<li>Angular</li>
-<li>React</li>
-<li>Phyton</li>
-</ul>
-</section>
-</div>
-
-</main>
-
-</body>
-
-<footer id=rodape>
-    <article class="secaorodape">
-        <p class="textorodape"> © Aluna Cristina Camilo for Escola Trybe</p>
-        <p class="linkexterno"><a href="https://www.betrybe.com" target="blank">BeTrybe.com</a></p>
-    </article>
-</footer>
+    </footer>
 
 </html>
