@@ -1,181 +1,181 @@
-body {background:rgb(253, 251, 251);
+body {
+  background: rgb(253, 251, 251);
 }
 
-#cabecalho { /* inspirado na vídeo aula https://www.youtube.com/watch?v=x-4z_u8LcGc&t=798s - Origamid */
-   display: flex;
-   top: 0;
-   align-items: center;
-   background-color: black;
-   position: fixed;
-   padding: 0;
-   font-family: Arial;
-   
+/* inspirado na vídeo aula https://www.youtube.com/watch?v=x-4z_u8LcGc&t=798s
+ - Origamid */
 
+#cabecalho {
+  display: flex;
+  top: 0;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  padding: 0;
 }
 
 #menuprincipal {
-    display: flex;
-    align-items: flex-end;
-} 
- 
+  display: flex;
+  align-items: flex-end;
+}
+
 #titulo {
-    font-size: 60px;
-    color: rgb(219, 107, 182);
-    text-align: center;
+  font-size: 60px;
+  color: rgb(219, 107, 182);
+  text-align: center;
 }
 
 .menu {
-    margin-left: 10px;
-    display: block;
-    padding: 10px;
-    color: rgb(153, 147, 147);
+  margin-left: 10px;
+  display: block;
+  padding: 10px;
+  color: rgb(153, 147, 147);
 }
 
 p {
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    line-height: 2px;
+  margin: 15px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 2px;
 }
 
 #minha_foto {
-    left: 100px;
-    top: 300px;
-    width:500px;
+  left: 100px;
+  top: 300px;
+  width: 500px;
 }
 
 .lado-esquerdo {
-    margin-left: 10px;
-    float: left;
-    position:absolute;
-    left: 100px;
-    top: 300px;
-    width:500px;
-    border: solid plum 5px;
+  margin-left: 10px;
+  float: left;
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  width: 500px;
+  border: solid plum 5px;
 
 }
 
-.lado-direito {    
-    float: right;
-    top: 250px;
-    right: 300px;
-    height: 200px;
-    width: 350px;
-    margin-right: 30px;
-    padding: 10px;
-    position: relative;
+.lado-direito {
+  float: right;
+  top: 250px;
+  right: 300px;
+  height: 200px;
+  width: 350px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
 
 }
 
-#lado-direito1 {    
-    float: right;
-    top: 550px;
-    right: 300px;
-    height: 150px;
-    width: 350px;
-    margin-right: 30px;
-    padding: 10px;
-    position: absolute;
+#lado-direito1 {
+  float: right;
+  top: 550px;
+  right: 300px;
+  height: 150px;
+  width: 350px;
+  margin-right: 30px;
+  padding: 10px;
+  position: absolute;
 }
 
 #linkexterno {
-    font-style: normal;
+  font-style: normal;
 }
 
 
 aside {
-    width: 15%;
-    right: 0%;
-    float: right;
-    position: absolute;
-    top: 1000px;
-    padding: 10px;
+  width: 15%;
+  right: 0%;
+  float: right;
+  position: absolute;
+  top: 1000px;
+  padding: 10px;
 }
 
-.tabelaexplicativa { 
-    background-color: antiquewhite;
-    height: 500px;
-    margin-top: 15px;
-    margin-left:15px;
-    margin-right: 0px;
-    text-align: center;}
+.tabelaexplicativa {
+  background-color: antiquewhite;
+  height: 500px;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
 
 article {
-    position: absolute;
-    top: 100%;
-    width: 1250px;
-    height: 50px;
-    margin: 20px;
-    border: 2px;
-    padding: 10px;
+  position: absolute;
+  top: 100%;
+  width: 1250px;
+  height: 50px;
+  margin: 20px;
+  border: 2px;
+  padding: 10px;
 }
 
 #aprendendoaaprender {
-    position: absolute;
-    top: 800px;
-    width: 1250px;
-    height: 50px;
-    margin: 20px;
-    border: 2px;
-    padding: 10px
+  position: absolute;
+  top: 800px;
+  width: 1250px;
+  height: 50px;
+  margin: 20px;
+  border: 2px;
+  padding: 10px;
 }
-    
+
 .textoartigo {
-    line-height: 1.5;
-    text-align: justify;
-    }
+  line-height: 1.5;
+  text-align: justify;
+}
 
 .titulodoartigo {
-    border: 5px;
-    padding: 5px;
-    background-color:plum
+  border: 5px;
+  padding: 5px;
+  background-color: plum;
 }
 
 .lista1 {
-    top: 1000px;
-    width: 400px;
-    height: auto;
-    position: absolute;
-    margin: 20px;
-    border: 2px;
-    padding: 10px;
-    background-color: plum;
-    }
+  top: 1000px;
+  width: 400px;
+  height: auto;
+  position: absolute;
+  margin: 20px;
+  border: 2px;
+  padding: 10px;
+  background-color: plum;
+}
 
 .lista2 {
-    top: 1300px;
-    width: 400px;
-    height: auto;
-    position: absolute;
-    margin: 20px;
-    border: 2px;
-    padding: 10px;
-    background-color: plum;
+  top: 1300px;
+  width: 400px;
+  height: auto;
+  position: absolute;
+  margin: 20px;
+  border: 2px;
+  padding: 10px;
+  background-color: plum;
 
 }
 
 #rodape {
-    font-style: italic;
-    position: absolute;
-    bottom: 100px;;
-    background-color: rgba(226, 150, 124, 0.466) solid;
-    top: 220%;
+  font-style: italic;
+  position: absolute;
+  bottom: 100px;
+  top: 220%;
 }
 
 .secaorodape {
-    margin-left: 500px;
-    border: 1px;
-    position: relative;
-    padding: 5px;
-    width: 50%;
-    justify-content: center;
+  margin-left: 500px;
+  border: 1px;
+  position: relative;
+  padding: 5px;
+  width: 50%;
+  justify-content: center;
 
 }
 
 .textorodape {
-    text-align: center;
+  text-align: center;
 }
 
 .linkexterno {
-    text-align: center;
+  text-align: center;
 }
