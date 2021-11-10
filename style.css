@@ -20,9 +20,11 @@ body {
 }
 
 #titulo {
-  font-size: 60px;
+  font-size: 55px;
   color: rgb(219, 107, 182);
+  font-family: monospace;
   text-align: center;
+
 }
 
 .menu {
@@ -130,6 +132,7 @@ article {
   border: 5px;
   padding: 5px;
   background-color: plum;
+  font-family: monospace;
 }
 
 .lista1 {
